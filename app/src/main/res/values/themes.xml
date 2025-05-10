@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.UTS_SandyWS" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/grey</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+
+    <style name="Theme.UTS_SandyWS" parent="Base.Theme.UTS_SandyWS" />
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+    <item name="windowSplashScreenBackground">@color/white</item>
+    <item name="windowSplashScreenAnimatedIcon">@drawable/enpikeciiiiiil</item>
+    <item name="postSplashScreenTheme">@style/Base.Theme.UTS_SandyWS</item>
+
+    </style>
+</resources>

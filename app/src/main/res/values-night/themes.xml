@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.UTS_SandyWS" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/grey</item> <!-- Toolbar color -->
+        <item name="colorPrimaryVariant">@color/grey</item> <!-- Status bar color -->
+        <item name="colorOnPrimary">#FFFFFF</item> <!-- Text/icon color on Toolbar -->
+    </style>
+</resources>

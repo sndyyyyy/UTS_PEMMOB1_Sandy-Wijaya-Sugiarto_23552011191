@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".RegisterActivity"
+    >
+
+
+    <!--Ini atasnya-->
+    <LinearLayout
+        android:id="@+id/Navbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/enpi"/>
+
+    </LinearLayout>
+
+    <!--    Tengah-->
+    <LinearLayout
+        android:id="@+id/Login_Card"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rounded"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTER DULU YAK"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:fontFamily="@font/poppins"/>
+
+
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E-Mail *"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="16dp"
+            android:background="@android:drawable/edit_text"
+            android:padding="12dp"
+            android:textColor="@color/black"/>
+
+        <!-- Password -->
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kata Sandi *"
+            android:inputType="textPassword"
+            android:layout_marginTop="12dp"
+            android:background="@android:drawable/edit_text"
+            android:padding="12dp"
+            android:textColor="@color/black"/>
+
+
+        <!-- Tombol Daftar -->
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daftar"
+            android:backgroundTint="#555"
+            android:textColor="#fff"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+
+
+    <!--    Ini bawahnya-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Created by Sandy Wijaya"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
